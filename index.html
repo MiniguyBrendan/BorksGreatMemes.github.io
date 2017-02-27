@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-		<title>Bork Realm</title>
-		<link rel="icon" type="image/png" href="http://www.loerealm.com/favicon.png">
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-		<style type="text/css">
-		  html, body {
-				height: 100%;
-				margin: 0;
-				overflow: hidden;
-		  }
-		</style>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js?r=226" "=""></script>
-		<script type="text/javascript">
-		var flashvars = { server: window.location.hostname };
-		var params = { wmode: "direct", quality: "low", bgcolor: "#000000" };
-		swfobject.embedSWF("AssembleeGameClient.swf", "nr", "100%", "100%", "11.2.0", "expressInstall.swf", flashvars, params);
-		</script><style type="text/css" media="screen">#nr {visibility:hidden}</style>
-	</head>
-	<body>
-		<object type="application/x-shockwave-flash" data="AssembleeGameClient.swf" width="100%" height="100%" id="nr" style="visibility: visible;"><param name="wmode" value="direct"><param name="quality" value="high"><param name="bgcolor" value="#000000"><param name="flashvars" value="sV=04410e5c22ed7b0976abd1135d8d6098"></object>
-	</body>
-</html>
+<canvas id="gc" width="640" height="480"></canvas>
+<script>
+window.onload=function() {
+ c=document.getElementById('gc');
+ cc=c.getContext('2d')
+ setInterval(update,1000/30);
+}
+function update() {
+ cc.fillStyle='black';
+ cc.fillRect(0,0c.width,c.height);
+ cc.fillStyle='white';
+ cc.fillRect(0,p1y,pt,ph);
+
+}
+</script>
