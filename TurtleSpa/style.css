@@ -1,0 +1,51 @@
+html,body {
+	background: #222;
+	color: #fff;
+	font-family: "helvetica";
+}
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	box-shadow: 0 0 50px #000;
+}
+h1 {
+   margin: 0;
+}
+
+h2{
+   margin: 0 0 70px 0;
+}
+
+h3{
+   color: #c5e74b;
+   font-size: 20px;
+}
+
+h1, h2, h3{
+   font-family: "Courgette"
+}
+
+header{
+   height: 300px;
+   color: #fff;
+   text-align: right;
+   padding: 30px 40px 30px 40px;
+   background-color: #000;
+   background-image: url(turtle_bath.jpg);
+   height: 92px;
+   width: 272px;
+}
+
+section{
+   background: #1e4e03;
+   background-color: #133002;
+   padding: 50px;
+   text-align: center;
+}
+
+footer{
+   color: #a3b65e;
+   background-color: #133002;
+   padding: 50px;
+   text-align: center;
+}
